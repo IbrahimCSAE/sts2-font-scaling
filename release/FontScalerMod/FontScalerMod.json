@@ -1,0 +1,11 @@
+{
+  "id": "FontScalerMod",
+  "name": "Font Scaler",
+  "author": "Deck",
+  "description": "Adds a configurable slider that can increase most in-game fonts up to 300%.",
+  "version": "v0.1.0",
+  "has_pck": true,
+  "has_dll": true,
+  "dependencies": ["BaseLib"],
+  "affects_gameplay": false
+}
