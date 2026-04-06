@@ -1,0 +1,9 @@
+{
+  "FONTSCALERMOD.mod_title": "Font Scaler",
+  "FONTSCALERMOD-MODE.title": "Font Mode",
+  "FONTSCALERMOD-MODE.hover.desc": "Choose between percentage-based scaling or forcing every font to a fixed pixel size.",
+  "FONTSCALERMOD-FONT_SCALE.title": "Font Size",
+  "FONTSCALERMOD-FONT_SCALE.hover.desc": "Scales the majority of UI text up to 300% for improved readability.",
+  "FONTSCALERMOD-ABSOLUTE_FONT_SIZE.title": "Fixed Font Size",
+  "FONTSCALERMOD-ABSOLUTE_FONT_SIZE.hover.desc": "Sets all captured fonts to this absolute size when Font Mode is set to Fixed."
+}
