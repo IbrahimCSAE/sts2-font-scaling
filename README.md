@@ -1,5 +1,8 @@
 ## STS2 Font Scaler Mod
 
+<img width="1178" height="336" alt="image" src="https://github.com/user-attachments/assets/40c42341-1de2-4849-9a62-1e1ab147d21f" />
+
+
 This repository contains a Slay the Spire 2 mod that adds font scaling controls to the game.  
 The mod allows players to either scale text as a percentage of the default size or force all supported fonts to a fixed pixel size (from 14px to 60px).  
 It captures most UI controls, including combat HUD, menus, tooltips, and compendium entries, and keeps them in sync with the chosen font mode.
