@@ -23,3 +23,5 @@ Inside the game, open Settings → Mod Settings → Font Scaler to:
 - Choose an absolute font size when Fixed mode is enabled (14px–60px).
 
 Changes take effect immediately across most UI screens.
+
+https://www.nexusmods.com/slaythespire2/mods/419
