@@ -9,6 +9,6 @@ internal static class MegaLabelPatches
 {
     private static void Postfix(MegaLabel __instance, int size)
     {
-        FontScalingService.RegisterFont(__instance, ThemeConstants.Label.fontSize, size);
+        FontScalingService.RegisterFont(__instance, FontScalingService.LabelFontSize, size);
     }
 }
