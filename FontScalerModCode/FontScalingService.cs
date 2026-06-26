@@ -33,13 +33,16 @@ internal static class FontScalingService
         }
     }
 
-    private static readonly StringName[] RichTextFontNames =
+    // These are standard Godot RichTextLabel theme font-size properties. We use the
+    // literal StringName values rather than the game's ThemeConstants helper so the mod
+    // does not break when the game renames or removes those fields between versions.
+    internal static readonly StringName[] RichTextFontNames =
     {
-        ThemeConstants.RichTextLabel.normalFontSize,
-        ThemeConstants.RichTextLabel.boldFontSize,
-        ThemeConstants.RichTextLabel.boldItalicsFontSize,
-        ThemeConstants.RichTextLabel.italicsFontSize,
-        ThemeConstants.RichTextLabel.monoFontSize
+        new("normal_font_size"),
+        new("bold_font_size"),
+        new("bold_italics_font_size"),
+        new("italics_font_size"),
+        new("mono_font_size")
     };
 
     public static void RegisterAndApply(Control control, StringName fontName, ref int size)
@@ -62,7 +65,8 @@ internal static class FontScalingService
         }
     }
 
-    private static readonly StringName LabelFontSize = new("font_size");
+    // Standard Godot Label theme font-size property.
+    internal static readonly StringName LabelFontSize = new("font_size");
 
     public static void RegisterFont(Control control, StringName fontName, int baseSize)
     {
