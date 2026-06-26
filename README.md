@@ -7,6 +7,9 @@ This repository contains a Slay the Spire 2 mod that adds font scaling controls 
 The mod allows players to either scale text as a percentage of the default size or force all supported fonts to a fixed pixel size (from 14px to 60px).  
 It captures most UI controls, including combat HUD, menus, tooltips, and compendium entries, and keeps them in sync with the chosen font mode.
 
+### Requirements
+This mod requires **[BaseLib](https://github.com/Alchyr/BaseLib-StS2)** to be installed. Without it the mod will not load. Make sure BaseLib is present in your `Slay the Spire 2/mods` folder before enabling Font Scaler.
+
 ### Building
 1. Install the `Alchyr.Sts2.Templates` (.NET templates) and the Slay the Spire 2 modding toolchain (BaseLib, Godot 4.5.1 mono, etc.).
 2. Restore packages and build:
